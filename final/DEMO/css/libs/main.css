@@ -1,0 +1,31 @@
+.events
+{
+    
+    margin-bottom:5%;
+    background-color: #f8f8fa;
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    float: left;
+    margin-left: 10%;
+}
+.leftbox
+{
+    width:450px;
+}
+
+.rightside
+{
+    width:50%;
+}
+.display-1
+{
+    margin-left: 60px;
+}
+.image-set
+{
+    width:100px;
+    height:100px;
+}
+.leftside a
+{
+  padding-bottom:10px;
+}

@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register Now</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" id="sign-in-img">
+					<span class="login100-form-title-1">
+						Verify Aadhar number
+					</span>
+				</div>
+
+				<form class="login100-form validate-form" method="post" action="register.php" >
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Name is required">
+						<span class="label-input100">Name</span>
+						<input class="input100" type="text" name="name" placeholder="Enter name">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+						<span class="label-input100">Organisation Name</span>
+						<input class="input100" type="text" name="orgname" placeholder="Enter organisation name">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Phone no. is required">
+						<span class="label-input100">Phone no.</span>
+						<input class="input100" type="number" name="pno" placeholder="Enter Phone no">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Confirm Email is required">
+						<span class="label-input100">E-mail</span>
+						<input class="input100" type="Email" name="email" placeholder="Enter E-mail">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="pass" placeholder="Enter password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Confirm Password is required">
+						<span class="label-input100">Confirm Password</span>
+						<input class="input100" type="password" name="cpass" placeholder="Enter confirm password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Aadhar number is required">
+						<span class="label-input100">Aadhar Number</span>
+						<input class="input100" type="text" name="aadhar" placeholder="Enter Aadhar Number ">
+						<span class="focus-input100"></span>
+					</div>
+                    
+                   <!-- <div class="container-login100-form-btn" >
+						<input type="submit" value="Verify" class="login100-form-btn" name="Verify"> 
+                          <a href = "aadharVerify.php" class = "login100-form-btn" id = "verify">Verify</a>
+					</div> -->
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Card number is required">
+						<span class="label-input100">Card Number</span>
+						<input class="input100" type="number" name="card" placeholder="Enter Card Number">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Crad expiry date is required">
+						<span class="label-input100">Card expiry date</span>
+						<input class="input100" type="text" name="expiry-date" placeholder="Enter Card expiry-date">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "CCV number is required">
+						<span class="label-input100">CVV</span>
+						<input class="input100" type="number" name="cvv" placeholder="Enter CVV number">
+						<span class="focus-input100"></span>
+					</div>
+
+					<br><br><br>
+
+					<div class="container-login100-form-btn" >
+						<input type="submit" value="Sign Up" class="login100-form-btn" name="btn2">
+                         <a href = "login.php" class = "login100-form-btn" id = "backButton">Back</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

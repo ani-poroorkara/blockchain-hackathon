@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Site</title>
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>res.sendFile() Works!</h1>
+            
+            <input type="text" name="name" id = "name" >
+
+            <input type="email" name="emailid" id = "eid" >
+            <br>
+            <input type="number" name="amount" id = "amt" >
+
+            <br>
+
+            <a onclick="senddata()" href="javascript:void(0);">Send data here </a>
+        </div>
+        <span id = "chain"></span>
+        
+    </div>
+    <script src="main.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+</body>
+</html>
